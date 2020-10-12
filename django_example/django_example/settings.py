@@ -25,11 +25,11 @@ SECRET_KEY = "xf)+4$y-alx^db+u%avuk0e*(mv_h1n^+2sg4=6_(^4z2jizki"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-HOST = "pdupuis.com"
+HOST = "localhost"
 
 PORT = 5000
 
-DTALE_HOST = "dtale.pdupuis.com"
+DTALE_HOST = "dtale.localhost"
 
 DTALE_URL = f"http://{DTALE_HOST}:{PORT}"
 

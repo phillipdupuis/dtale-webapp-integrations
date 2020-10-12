@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 from flask import Flask, redirect
 
-HOST = "pdupuis.com"
+HOST = "localhost"
 PORT = 5000
-DTALE_HOST = "dtale.pdupuis.com"
+DTALE_HOST = "dtale.localhost"
 DTALE_URL = f"http://{DTALE_HOST}:{PORT}"
 
 main_app = Flask(__name__)

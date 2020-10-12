@@ -9,13 +9,10 @@ To test utilizing subdomains locally, you will need to update your `/etc/hosts` 
 
 If you're on mac/linux, from a terminal:
 1. `sudo vi /etc/hosts`
-2. add an entry that ends with .com -- you will use this as your host for testing from now on, rather than localhost or 127.0.0.1.
-3. add an entry that matches the previous one but also has "dtale" subdomain prefix.
-
-Example:
+2. make sure that entries exist mapping both "localhost" and "dtale.localhost" to 127.0.0.1:
 ```
-127.0.0.1    pdupuis.com
-127.0.0.1    dtale.pdupuis.com
+127.0.0.1    localhost
+127.0.0.1    dtale.localhost
 ```
 
 Then, look at the example for your particular framework.

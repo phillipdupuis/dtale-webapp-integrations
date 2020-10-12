@@ -6,9 +6,9 @@ from fastapi import FastAPI
 from fastapi.middleware.wsgi import WSGIMiddleware
 from fastapi.responses import HTMLResponse, RedirectResponse
 
-HOST = "pdupuis.com"
+HOST = "localhost"
 PORT = 5000
-DTALE_HOST = "dtale.pdupuis.com"
+DTALE_HOST = "dtale.localhost"
 DTALE_URL = f"http://{DTALE_HOST}:{PORT}"
 
 main_app = FastAPI()
