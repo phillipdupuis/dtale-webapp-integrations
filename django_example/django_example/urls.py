@@ -21,4 +21,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.root),
     path("dtale/<data_id>/", views.show_dtale),
+    path("tables/", views.table_list),
+    path("tables/dtale/view/<table_name>/", views.view_table_dtale),
+    path("tables/dtale/refresh/<table_name>/", views.refresh_table_dtale),
 ]
